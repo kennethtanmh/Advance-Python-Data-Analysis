@@ -12,3 +12,5 @@
 - .notnull() returns the series with non null/na values
 - .isnull() returns the series with null/na values
 - .isnull().sum() return the number of null/Na values
+- .nsmallest(n=) retrieve the smallest n values from a DataFrame or Series
+- .nlargest(n=) retrieve the largest n values from a DataFrame or Series
